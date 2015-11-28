@@ -13,7 +13,7 @@ after_initialize do
     class << self
       def allow_reply_by_email?
         SiteSetting.reply_by_email_enabled? &&
-        # either we're disabled or recipients TL needs to be above or equal to the min setting
+        # either we're disabled or recipient's TL needs to be above or equal to the min setting
         ( !SiteSetting.reply_by_email_enabled || User.find_by(email: @to).trust_level >= SiteSetting.reply_by_email_TL_min ) &&
         reply_by_email_address.present? &&
         @opts[:allow_reply_by_email]
