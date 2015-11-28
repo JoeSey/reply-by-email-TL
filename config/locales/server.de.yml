@@ -1,0 +1,4 @@
+de  :
+  site_settings:
+    reply_by_email_TL_enabled: "Aktiviere das Plugin 'reply by email trust level'"
+    reply_by_email_TL_min: "Erforderliche Vertrauensstufe, damit Benutzer 'reply by email' nutzen können"

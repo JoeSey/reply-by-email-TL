@@ -1,4 +1,4 @@
 en:
   site_settings:
-    enable_reply_by_email_TL: "Enable reply by email trust level plugin"
-    reply_by_email_TL: "Minimum trust level necessary to use reply by email"
+    reply_by_email_TL_enabled: "Enable reply by email trust level plugin"
+    reply_by_email_TL_min: "Minimum trust level necessary to use reply by email"
