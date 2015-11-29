@@ -3,5 +3,5 @@ plugins:
     default: true
     client: true
   reply_by_email_TL_min:
-    default: 0
+    default: 1
     client: true
